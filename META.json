@@ -1,10 +1,10 @@
 {
-   "abstract" : "Dancer-Plugin-SecureSessionID",
+   "abstract" : "A secure replacement of Dancer's built-in session id generator",
    "author" : [
       "David Zurborg <zurborg@cpan.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 6.6302, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "ExtUtils::MakeMaker version 6.6302, CPAN::Meta::Converter version 2.142060",
    "license" : [
       "unknown"
    ],
@@ -32,7 +32,7 @@
       },
       "runtime" : {
          "requires" : {
-            "Crypt::Random" : "1.25",
+            "Crypt::OpenSSL::Random" : "0.04",
             "Dancer" : "1.312",
             "MIME::Base64" : "3.14",
             "Modern::Perl" : "0",
@@ -41,5 +41,5 @@
       }
    },
    "release_status" : "stable",
-   "version" : "0.01"
+   "version" : "0.02"
 }
